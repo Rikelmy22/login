@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*
+Tablets:768px a 992px.
+Desktops: 992px a 1200px.
+*/
+
+@media screen  and (min-width:768px) and (max-width:992px){
+    body {
+        background-image: linear-gradient(to top, black, white);
+        width: 80vw;
+    }
+    
+    main > section#login {
+        width: 60vw;
+        height: 65vh;
+    }
+
+    main > section#login > div#imagem {
+        float: left;
+        height: 65vh;
+        width: 25vw;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+}
