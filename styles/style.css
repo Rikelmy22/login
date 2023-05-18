@@ -35,6 +35,9 @@ main > section#login {
     width: 280px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.386);
+
+    transition: width.5s, height.3s;
+    transition-timing-function: ease;
 }
 
 main > section#login > div#imagem {
