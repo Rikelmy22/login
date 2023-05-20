@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login-01</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" media="all">
     <link rel="stylesheet" href="styles/mediaqueries.css">
 </head>
@@ -18,16 +18,23 @@
                     Login
                 </h1>
                 <p>
-                    Seja bem-vindo(a) novamente, faça sua configurações necessárias para ter acesso a seu amabiente de dados.
+                    Seja bem-vindo(a) novamente, faça sua configurações necessárias para ter acesso a seu ambiente de dados.
                 </p>
                 <form action="destinatario.php" method="post" autocomplete="on">
                     <div class="campo">
-                     <input type="email" name="email" id="iemail">
-                     <label for="iemail">E-mail:</label>
+                        <label for="ie-mail">
+                            <span class="material-icons md-18">person</span>
+                        </label>
+                        <input type="email" name="email" id="ie-mail" placeholder="seu e-mail" required minlength="10" maxlength="30">
                     </div>
                     <div class="campo">
-
+                        <label for="isen">  
+                            <span class="material-icons">key</span>
+                        </label>
+                        <input type="password" name="password" id="isen" placeholder="sua senha" required minlength="8" maxlength="15" autocomplete="on">
                     </div>
+                    <input type="submit" value="ENTRAR">
+                        <a href="esqueci-a-senha.com.br">Esqueci a senha <span class="material-icons">mail</span></a>                        
                 </form>
             </div>
         </section>
