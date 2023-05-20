@@ -50,3 +50,14 @@ main > section#login > div#imagem {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
+
+main > section#login > div#formulario {
+   padding: 10px;
+}
+
+main > section#login > div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    font-weight: bolder;
+}
