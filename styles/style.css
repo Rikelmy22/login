@@ -107,7 +107,7 @@ form > a#botao:hover {
     color: black;
     border: 1px solid black;
     text-shadow: none;
-    
+     
     transition-duration: 1.3s;
     transition-duration: ease;
 }
