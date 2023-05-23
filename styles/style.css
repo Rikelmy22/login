@@ -71,6 +71,21 @@ main > section#login > div#formulario > form >.campo {
     border-radius: 5px;
 }
 
+form >.campo > label > span {
+    font-size: 2em;
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    height: 40px;
+}
+
+form >.campo > input {
+    background-color: rgba(228, 228, 228, 0.722);
+    border: none;
+    width: calc(100% - 37.9px);
+    height: 40px;
+    transform: translateY(-8px);
+}
+
 form > input[type=submit] {
     display: block;
     width: 100%;
