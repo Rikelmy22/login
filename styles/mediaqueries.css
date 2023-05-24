@@ -15,19 +15,20 @@ Desktops: 992px a 1200px.
     
     main > section#login {
         width: 70vw;
-        height: 65vh;
+        height: 330px;
     }
 
     main > section#login > div#imagem {
         float: left;
         height: 100%;
-        width: 30%;
+        width: 40%;
         border-radius: 20px 0px 0px 20px;
     }
 
     main > section#login > div#formulario {
         float: right;
-        width: 59% ;
+        width: 50% ;
+        margin-right: 20px;
     }
 }
 
@@ -40,7 +41,7 @@ Desktops: 992px a 1200px.
         
         main > section#login {
             width: 90vw;
-            height: 65vh;
+            height: 330px;
         }
     
         main > section#login > div#imagem {
